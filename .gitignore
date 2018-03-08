@@ -14,5 +14,10 @@
 spring-ioc-01/.settings/
 spring-ioc-01/.project
 spring-ioc-01/.classpath
-spring-ioc-01/target/
+spring-ioc-01/target/   
+
+spring-di-01/.settings/
+spring-di-01/.project
+spring-di-01/.classpath
+spring-di-01/target/
 
