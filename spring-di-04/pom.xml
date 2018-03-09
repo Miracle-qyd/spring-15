@@ -6,7 +6,8 @@
 		<artifactId>spring-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>spring-di-03</artifactId>
+	<artifactId>spring-di-04</artifactId>
+
 	
 
 </project>
