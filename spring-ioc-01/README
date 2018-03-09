@@ -17,7 +17,6 @@ Spring IOC
 				public static UserSerivce createUserSerivce () {
 					return new UserSerivce();
 				}
-			
 			}
 				 		
 	 注意： 这里创建对象的方法 必须是静态方法

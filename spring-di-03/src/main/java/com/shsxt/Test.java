@@ -4,8 +4,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.shsxt.service.UserService;
-import com.shsxt.service.UserService2;
-import com.shsxt.service.UserService3;
 
 public class Test {
 
@@ -15,17 +13,9 @@ public class Test {
 		ApplicationContext act = new ClassPathXmlApplicationContext("spring-context.xml");
 
 		UserService bean = act.getBean(UserService.class);
-		bean.print();
-
-		/////////////////////////////////////////////////////
-		UserService2 bean2 = act.getBean(UserService2.class);
-		bean2.print();
-
 		
-		////////////////////////////////////////////////////
-		UserService3 bean3 = act.getBean(UserService3.class);
-		bean3.print();
+		bean.print();
+		
 		
 	}
-
 }

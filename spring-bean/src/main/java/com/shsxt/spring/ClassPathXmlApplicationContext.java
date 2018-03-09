@@ -61,12 +61,12 @@ public class ClassPathXmlApplicationContext implements ApplicationContext {
 			// 获取根元素
 			Element rootElement = doc.getRootElement();
 			Iterator<Element> itor = rootElement.elementIterator();
-
+				
 			while (itor.hasNext()) {
 				Element ele = itor.next();
 				String id = ele.attributeValue("id");
 				String c = ele.attributeValue("class");
-				//
+				
 				Node node = new Node(id, c);
 				list.add(node);
 			}

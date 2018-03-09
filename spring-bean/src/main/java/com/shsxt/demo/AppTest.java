@@ -8,8 +8,8 @@ public class AppTest {
 	public static void main(String[] args) {
 
 		ApplicationContext act = new ClassPathXmlApplicationContext(
-				"D:\\code\\project\\gaoji\\15\\spring\\spring-bean\\src\\main\\resources\\spring-context.xml");
-
+				"F:\\6Senior\\project\\spring\\spring-bean\\src\\main\\resources\\spring-context.xml");
+		
 		UserService u = (UserService) act.getBean("userService");
 
 		u.print();
